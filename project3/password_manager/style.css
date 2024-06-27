@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image:linear-gradient(135deg,#03045e,#ade8f4) ;
+    height: 100vh;
+}
+
+.navbar{
+    color: white;
+    font-size: 3vh ;
+    display: flex;
+    background-color: #03045e;
+    justify-content: center;
+    height: 12vh;
+    align-items: center;
+}
+
+.main-body{
+    height: 40vh ;
+}
+
+.Heading_pass{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+
+.pass_table{
+    font-size: x-large;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.pass_table table,th,td{
+    padding: 10px;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+
+.add_pass{
+    position: relative;
+}
+
+.add_pass_heading{
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+}
+
+.add_pass_form{
+    font-size: 3vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+}
+
+.add_pass form  input{
+     background-color: #0096c7;;
+     padding:0.5vh;
+}
+
+
+#Password{
+    margin-left: 7px;
+    border-radius: 7px;
+}
+
+#Username{
+    border-radius: 7px;
+}
+
+#Website{
+    border-radius: 7px;
+    margin-left: 22px;
+}
+
+#submit{
+    position:absolute;
+    background-color:#0096c7 ;
+    height: 4vh;
+    margin-top: 1vh;
+    border-radius: 7px;
+    bottom: -5vh;
+    left: 98vh;
+}
+
+.delete{
+    cursor: pointer;
+}
