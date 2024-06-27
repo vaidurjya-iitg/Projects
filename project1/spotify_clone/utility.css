@@ -1,0 +1,55 @@
+.border{
+    border: 2px solid rgb(248, 248, 248);
+    margin:3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.itmes-center{
+    align-items: center;
+}
+
+.bg-left{
+    background-color: #797a9e;
+    color: white;
+
+}
+
+.bg-left-1{
+    background-color: #797a9e;
+    color: white;
+    opacity:.9;
+}
+
+.bg-all{
+    background-color: #9893da;
+    color: rgb(255, 255, 255);
+}
+
+.invert{
+    filter: invert(1);
+}
+.round{
+    border-radius: 7px;
+}
+.p-1{
+    padding: 20px;
+}
+.color3{
+    background-color: #bbbdf6;
+}
+
+.card-color{
+    background-color: #625f63;
+    opacity: .9;
+}
+
+.gap{
+    gap: 5px;
+}

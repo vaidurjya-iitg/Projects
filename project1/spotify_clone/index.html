@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+  <div class="container flex bg-all">
+    <div class="left border round ">
+      <div class="home bg-left-1 round p-1">
+        <div class="logo flex items-center"><img src="logos/logo.png" alt="logo"></div>
+        <ul>
+          <li><img src="logos/home.svg" alt="home" style="display: inline-block;">Home</li>
+          <li><img src="logos/search.svg" alt="search" style="display: inline-block;">Search</li>
+        </ul>
+
+      </div>
+      <div class="library bg-left-1 round p-1">
+        <img src="logos/libary.svg " alt="library">Your library
+      </div>
+      <div class="song_list">
+        <ul>
+        </ul>
+      </div>
+
+    </div>
+    <div class="right border round">
+      <div class="header bg-left-1 round" style="opacity: .6;">
+        <div class="left_right"><img src="logos/header_right.svg">
+          <img src="logos/header_left.svg">
+        </div>
+
+        <div class="account">
+          <div class="sign_up " style="display: inline-block;"><button class="color3 round">Sign Up</button></div>
+          <div class="login " style="display: inline-block;"><button class="color3 round">Login</button></div>
+        </div>
+      </div>
+      <div class="playlist">
+        <h1>Playlist</h1>
+        <br>
+        <div class="card_container">
+        </div>
+      </div>
+      <div class="playbar_container flex justify-center">
+        <div class="playbar round">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="song_info">track</div>
+          <div class="song_controls flex justify-center gap">
+            <div class="previous_song" id="previous"><button><img src="/spotify_clone/play_bar_logos/previous.svg" alt=""></button>
+            </div>
+            <div class="play_song" id="play"><button><img src="/spotify_clone/play_bar_logos/pause.svg" alt=""></button></div>
+            <div class="next_song" id="next"><button><img src="/spotify_clone/play_bar_logos/next.svg" alt=""></button></div>
+          </div>
+          <div class="song_time" >00:00/00:00</div>
+          <div class="volume flex items-center gap">
+            <img src="logos/volume.svg" alt="">
+            <div class="range flex items-center">
+              <input type="range" name="volume" value="100">
+              <div class="vol_value flex items-center">
+                <p>100/100</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
